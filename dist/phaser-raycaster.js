@@ -3880,6 +3880,7 @@ Ray.prototype = {
   setDetectionRange: (__webpack_require__(/*! ./range.js */ "./src/ray/range.js").setDetectionRange),
   boundsInRange: (__webpack_require__(/*! ./range.js */ "./src/ray/range.js").boundsInRange),
   cast: (__webpack_require__(/*! ./cast.js */ "./src/ray/cast.js").cast),
+  cast_unit: (__webpack_require__(/*! ./cast.js */ "./src/ray/cast_unit.js").cast_unit),
   castCircle: (__webpack_require__(/*! ./castCircle.js */ "./src/ray/castCircle.js").castCircle),
   castCone: (__webpack_require__(/*! ./castCone.js */ "./src/ray/castCone.js").castCone),
   slice: (__webpack_require__(/*! ./slice.js */ "./src/ray/slice.js").slice),
