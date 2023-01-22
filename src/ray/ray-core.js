@@ -220,6 +220,7 @@ Ray.prototype = {
     setDetectionRange: require('./range.js').setDetectionRange,
     boundsInRange: require('./range.js').boundsInRange,
     cast: require('./cast.js').cast,
+	cast_unit: require('./cast.js').cast_unit,
     castCircle: require('./castCircle.js').castCircle,
     castCone: require('./castCone.js').castCone,
     slice: require('./slice.js').slice,
