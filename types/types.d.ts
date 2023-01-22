@@ -178,6 +178,19 @@ declare namespace Raycaster {
             target?: Phaser.Geom.Point | Point;
             internal?: boolean;
         }): Phaser.Geom.Point | boolean;
+		/**
+         * Cast ray to find closest intersection with tested mapped objects.
+         * @param [options] - options that may include:
+         * @param [options.objects = {Raycaster#mappedObjects}] - Array of game objects to test. If not provided test all mapped game objects.
+         * @param [options.target] - Ray's target point. Used in other casting methods to determine if ray was targeting mapped objects point.
+         * @param [options.internal = false] - Flag determining if method is used by other casting method.
+         * @returns Ray's closest intersection with tested objects. Returns false if no intersection has been found. Additionally contains reference to hit mapped object and segment if available.
+         */
+        cast_unit(options?: {
+            objects?: object[];
+            target?: Phaser.Geom.Point | Point;
+            internal?: boolean;
+        }): Phaser.Geom.Point | boolean;
         /**
          * Cast ray in all directions to find closest intersections with tested mapped objects.
          * @param [options] - options that may include:
