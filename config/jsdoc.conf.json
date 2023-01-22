@@ -9,6 +9,7 @@
             "./src/ray/ray-core.js",
             "./src/ray/config.js",
             "./src/ray/cast.js",
+			"./src/ray/cast_unit.js",
             "./src/ray/castCircle.js",
             "./src/ray/castCone.js",
             "./src/ray/ray.js",
