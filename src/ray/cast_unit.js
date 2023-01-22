@@ -1,7 +1,7 @@
 /**
  * Cast ray to find closest intersection with tested mapped objects.
  *
- * @method Raycaster.Ray#cast
+ * @method Raycaster.Ray#cast_unit
  * @memberof Raycaster.Ray
  * @instance
  * @since 0.6.0
